@@ -20,7 +20,9 @@ export function OptimizedPrompt({
           <span className="h-6 w-6 rounded-lg bg-white border border-purple-200 flex items-center justify-center text-xs font-bold text-purple-600">
             2
           </span>
-          <h3 className="font-extrabold text-slate-800">The Alchemy Report</h3>
+          <h3 className="font-extrabold text-slate-800">
+            The Optimized Report
+          </h3>
         </div>
 
         <div className="flex items-center gap-4">
@@ -73,7 +75,7 @@ export function OptimizedPrompt({
         <span className="text-lg">💡</span>
         <div>
           <span className="text-[9px] uppercase font-bold text-teal-700 tracking-wide block">
-            Alchemist's Tip:
+            Optimization Tip:
           </span>
           <p className="text-slate-700 text-xs italic font-medium">
             {analysis.educationalTip}

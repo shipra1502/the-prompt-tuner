@@ -83,7 +83,7 @@ export function ShowDown({
           {/* Optimized Output Box */}
           <div className="p-5 bg-purple-50/50 border border-purple-100 rounded-xl space-y-2.5 shadow-inner">
             <span className="text-[9px] uppercase font-black text-purple-600 tracking-wider block bg-purple-50 px-2 py-0.5 rounded-sm border border-purple-100 w-max">
-              Alchemist's Optimized Output
+              Prompt Tuner Optimized Output
             </span>
             <div className="text-xs text-slate-800 font-semibold leading-relaxed whitespace-pre-wrap max-h-56 overflow-y-auto pr-1">
               {isExecutingShowdown ? "Optimizing query..." : optimizedOutput}

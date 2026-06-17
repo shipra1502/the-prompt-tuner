@@ -274,7 +274,7 @@ Your response must be a strict JSON object. Do not include any markdown format t
                 </div>
                 <div>
                   <h3 className="font-extrabold text-slate-700 text-lg">
-                    No Alchemy Performed Yet
+                    No Optimization Performed Yet
                   </h3>
                   <p className="text-slate-400 text-xs max-w-sm mx-auto mt-1.5">
                     Enter your basic prompt, save your OpenAI API key, and click
