@@ -13,7 +13,7 @@ import { LocalPrivacyShield } from "./components/LocalPrivacyShield";
 import { PresetSelector } from "./components/PresetSelector";
 import { RawPrompt } from "./components/RawPrompt";
 import { Checklists } from "./components/Checklists";
-import { UpdatedPrompt } from "./components/UpdatedPrompt";
+import { OptimizedPrompt } from "./components/OptimizedPrompt";
 import { ShowDown } from "./components/ShowDown";
 
 // Main Core Orchestrator Page Container
@@ -296,7 +296,7 @@ Your response must be a strict JSON object. Do not include any markdown format t
 
             {analysis && !isEnhancing && (
               <div className="space-y-6">
-                <UpdatedPrompt
+                <OptimizedPrompt
                   analysis={analysis}
                   optimizedPrompt={optimizedPrompt}
                   copiedType={copiedType}

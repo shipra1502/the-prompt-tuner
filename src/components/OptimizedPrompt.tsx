@@ -1,18 +1,18 @@
 // Sub-component: Optimized output report dashboard
 import { type AnalysisResult } from "../constants/presets";
-interface UpdatedPromptProps {
+interface OptimizedPromptProps {
   analysis: AnalysisResult;
   optimizedPrompt: string;
   copiedType: string | null;
   onCopy: (text: string, type: string) => void;
 }
 
-export function UpdatedPrompt({
+export function OptimizedPrompt({
   analysis,
   optimizedPrompt,
   copiedType,
   onCopy,
-}: UpdatedPromptProps) {
+}: OptimizedPromptProps) {
   return (
     <div className="bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden">
       <div className="bg-linear-to-r from-purple-50 to-indigo-50/50 p-6 border-b border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
